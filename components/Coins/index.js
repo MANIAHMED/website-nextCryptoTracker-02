@@ -1,9 +1,10 @@
-
-function Coin() {
+const Coin = ({name}) => {
     return (
-        <h1>
-            Coins
-        </h1>
+    <h1>
+        {name}
+    </h1>
+
+        
     )
 }
 
